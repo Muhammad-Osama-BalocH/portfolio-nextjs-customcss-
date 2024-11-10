@@ -1,13 +1,12 @@
-// components/Contact.js
 import React from 'react';
 import { FaTwitter, FaLinkedin, FaGithub, FaFacebook } from 'react-icons/fa';
 
 const Contact = () => {
   return (
-    <div className="contact-section" id='contact'>
+    <div className="contact-section" id="contact">
       <h2 className="contact-title">My Contact</h2>
       <p className="contact-description">
-        Feel free to reach out if you'd like to connect, collaborate, or just say hello!
+        Feel free to reach out if you&apos;d like to connect, collaborate, or just say hello!
       </p>
       <form className="contact-form">
         <input type="text" placeholder="Your Name" className="contact-input" required />
